@@ -1,2 +1,1 @@
-SELECT count(*)
-FROM `albums`;
+SELECT count(*) FROM `albums`;
