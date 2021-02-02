@@ -1,1 +1,1 @@
-SELECT albums.Title FROM `albums` JOIN artists ON artists.ArtistId = albums.ArtistId WHERE artists.Name = 'Deep Purple'
+SELECT sum(UnitPrice) FROM tracks JOIN albums ON albums.ArtistId = tracks.AlbumId WHERE albums.ArtistId = '58';
