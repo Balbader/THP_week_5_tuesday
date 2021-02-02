@@ -1,3 +1,1 @@
-DELETE
-FROM `albums`
-WHERE Title like '%music%'
+DELETE FROM `albums` WHERE Title like '%music%'
