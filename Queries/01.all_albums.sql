@@ -1,2 +1,1 @@
-SELECT AlbumId, Title, ArtistId
-FROM `albums`
+SELECT AlbumId, Title, ArtistId FROM `albums`
